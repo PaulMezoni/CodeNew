@@ -17,7 +17,7 @@ public class AddMapKey {
 
 
     public static class Key {
-        private String key;
+        private final String key;
 
         public Key(String key) {
             this.key = key;
